@@ -1,0 +1,112 @@
+#      __  __                ______
+#     / / / /__  _  ______ _/ ____/________  ____
+#    / /_/ / _ \| |/_/ __ `/ __/ / ___/ __ \/ __ \
+#   / __  /  __/>  </ /_/ / /___/ /__/ /_/ / / / /
+#  /_/ /_/\___/_/|_|\__,_/_____/\___/\____/_/ /_/
+#
+# Best Economy plugin, made with ♥ by OwOFuFu
+# OwOFuFu GitHub: https://github.com/OwOFuFu
+# OwOFuFu Spigot: https://www.spigotmc.org/members/owofufu.1382702/
+
+# Gradients And Patterns
+# You can use for HEX this format #b50e22
+# For gradients you can use <GRADIENT:63c7db> Starting color and end color </GRADIENT:b50e22>
+# Local PlaceHolders Working on language/language.yml
+# %p% returns the name of the player
+# %u% returns the usage
+# %perm% returns the permission
+# %targetbalance% returns the name of the target player
+# %amount% returns the raw amount of the player balance
+# %amountformatted% returns the formatted amount of the player balance
+# %valuename% returns the value name u can change the valuename on config.yml in [DataEconomyName]
+
+# DataBase Setup
+DataBase:
+  Type: "h2" # h2 / MySQL / MongoDB / Redis
+  DataEconomyName: "coins" # Economy Name
+MySQL:
+  Host: "" # HostName
+  Port: 3306 # Port
+  DataBase: "" # DataBase
+  UserName: "" # UserName
+  Password: "" # Password
+MongoDB:
+  Host: "mongodb://localhost:27017"
+Redis:
+  Host: "localhost"
+  Port: 6379
+
+# Modules
+GenericModules: # Modules
+  OnKillMonsters: true
+  OnKillAnimals: false
+CustomModules:
+  OnKillGenericMobs: false # When the custom module is enabled, OnKillMonsters Module and OnKillAnimalsModule are ignored
+
+Economy:
+  FirstJoinCash: 0 # Set 0 to disable this
+  Pattern: "#,##0.##" # Currency Pattern
+  Events:
+    OnKillMonsters:
+      StrikeEffect: false # if this is enabled the OnKillMonsters sound is disabled
+      Earn: 5 # earn money amount
+    OnKillAnimals:
+      StrikeEffect: false # if this is enabled the OnKillAnimals sound is disabled
+      Earn: 1 # earn money amount
+  Virtual:
+    Name: "&e&lCOIN"
+    Symbol: "⛀" # ⛀⛁⛃⛂
+  Physical:
+    NBT: # you can use the nbt value to apply custom textures for the plugin
+      Value: 30015 # default texture here (https://www.dropbox.com/s/b9gmdetcysz66zn/HexaEcon.zip?dl=1)
+    Item: DOUBLE_PLANT # (Legacy 1.8 DOUBLE_PLANT)this is the physical item (if the item is a sunflower the BlockPlaceEvent for this item is disabled)
+    DisplayName: "&e&lCOIN" # physical item display name (HEX SUPPORT)
+    Lore:
+      - "&f&l| &7Economy value"
+      - "&f&l| &7at /warp shop"
+
+# Sounds
+Sounds: # https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html
+  OnPlayerInteractWithEcon:
+    Sound: "LEVEL_UP" # if the sound is NONE no play sounds
+    Volume: 100
+    Pitch: 1
+  OnPlayerSneakPickupEcon:
+    Sound: "CHICKEN_EGG_POP"
+    Volume: 100
+    Pitch: 1
+  OnKillMonsters: # on monster kill
+    Sound: "NONE"
+    Volume: 100
+    Pitch: 1
+  OnKillAnimals: # on animals kill
+    Sound: "NONE"
+    Volume: 100
+    Pitch: 1
+  OnKillGenericMobs:
+    Sound: "NONE"
+    Volume: 100
+    Pitch: 1
+  EcoCommand:
+    Sound: "NONE"
+    Volume: 100
+    Pitch: 1
+  WalletCommand:
+    Sound: "NONE"
+    Volume: 100
+    Pitch: 1
+  NoPermission:
+    Sound: "VILLAGER_NO"
+    Volume: 100
+    Pitch: 1
+
+# Texture
+TextureManager:
+  Enabled: false # Texture not works for 1.8
+  Texture: "https://www.dropbox.com/s/b9gmdetcysz66zn/HexaEcon.zip?dl=1"
+
+# Metrics
+bStats: true
+
+# Don't change this value
+config: "legacy"
