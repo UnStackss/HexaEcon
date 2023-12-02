@@ -1,0 +1,4 @@
+Author: OwOFuFu
+Source: https://github.com/OwOFuFu/HexaStrikePractice
+This addon allow you to recieve coins when you win a game
+Depends: HexaEcon, StrikePractice
