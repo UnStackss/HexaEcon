@@ -1,0 +1,8 @@
+Author: OwOFuFu
+Source: https://github.com/OwOFuFu/VaultExtractor
+This HexaEcon extension allows you to convert your balance from Vault to HexaEcon automatically
+Depends: HexaEcon, Vault
+
+1) Download the extension
+2) Put into server and make sure you have Vault and HexaEcon
+3) When player join and have a vault account the extension converts automatically to hexaecon bank 
