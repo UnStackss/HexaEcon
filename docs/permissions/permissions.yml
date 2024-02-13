@@ -1,0 +1,16 @@
+hexaecon.permissions.balance:
+    description: "Allows the player to see their balance"
+hexaecon.permissions.pay:
+    description: "Allows the player to send money"
+hexaecon.permissions.balancetop:
+    description: "Allows the player to see the BalTop"
+hexaecon.permissions.generate:
+    description: "Allows the player to generate money"
+hexaecon.permissions.set:
+    description: "Allows the player to set money"
+hexaecon.permissions.withdraw:
+    description: "Allows the player to withdraw money"
+hexaecon.permissions.remove:
+    description: "Allows the player to remove money"
+hexaecon.permissions.reload:
+    description: "Allows the player to reload the plugin"
