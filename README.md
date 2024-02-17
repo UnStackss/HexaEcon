@@ -13,6 +13,9 @@
   <a href="https://imgur.com/QM06Ye8.png">
         <img src="https://imgur.com/QM06Ye8.png" alt="Commands">
     </a>
+    <a href="https://imgur.com/elXoX3e.png">
+        <img src="https://imgur.com/elXoX3e.png" alt="Gestures">
+    </a>
 </div>
 <div align="center">
     <a href="https://imgur.com/f5qUmpk.png">
