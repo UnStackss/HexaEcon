@@ -1,4 +1,4 @@
-# Created by KiyoshiDevelopment
+# Created by OwOFuFu
 Formatted:
   Amount: '&e%amountformatted%'
 Language:
@@ -19,8 +19,7 @@ Language:
   WalletWithdrawAmount: '&e- &6%amountformatted% &e%valuename%.'
   PlayerNotFound: '&eplayer &6%p% &enot found or not online.'
   WalletWithdrawConverted: '&6%amountformatted% &e%valuename% converted.'
-  WalletWithdrawConvertErrSpaceInv: '&cError while trying to convert your money your
-    inventory is full.'
+  WalletWithdrawConvertErrSpaceInv: '&cError while trying to convert your money your inventory is full or the amount is to big.'
   WalletWithdrawRemaningAmount: '&ethey still remain %valuename% &6%amountformatted%.'
   WalletWithdrawNoEnoughAmount: '&eyou don''t have enough %valuename%, you have &6%amountformatted%
     &e%valuename%.'
@@ -33,5 +32,5 @@ Language:
   CannotPaySelf: '&eYou cannot pay yourself.'
   UsageFormat: '&eUsage: %u%'
 Usages:
-  EconConvertDeposit: '&e/wallet <generate/withdraw/remove> <amount> <player>'
+  EconConvertDeposit: '&e/wallet <generate/withdraw/remove/set> <amount> <player>'
   Pay: '&e/pay <amount> <player>'
