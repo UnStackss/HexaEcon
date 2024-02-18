@@ -19,8 +19,7 @@ Language:
   WalletWithdrawAmount: '&e- &6%formattedamount% &e%valuename%.'
   PlayerNotFound: '&eEl jugador &6%p% &eno fue encontrado o no está conectado.'
   WalletWithdrawConverted: '&6%formattedamount% &e%valuename% convertido.'
-  WalletWithdrawConvertErrSpaceInv: '&cError al intentar convertir tu dinero en tu
-    El inventario está lleno.'
+  WalletWithdrawConvertErrSpaceInv: '&cError al intentar convertir su dinero, su inventario está lleno o la cantidad es demasiado grande.'
   WalletWithdrawRemaningAmount: '&eEllos aún requieren de %valuename% &6%formattedamount%.'
   WalletWithdrawNoEnoughAmount: '&eNo tienes los %valuename%, tienes &6%formattedamount% &e%valuename%.'
   PlayerPayed: '&eHas enviado correctamente a &6%p% &ela cantidad de &6%formattedamount% &e%valuename%.'
@@ -30,5 +29,5 @@ Language:
   CannotPaySelf: '&eNo puedes pagarte a ti mismo.'
   UsageFormat: '&eUso: %u%'
 Usages:
-  EconConvertDeposit: '&e/wallet <generate/withdraw/remove> <amount> <player>'
+  EconConvertDeposit: '&e/wallet <generate/withdraw/remove/set> <amount> <player>'
   Pay: '&e/pay <cantidad> <jugador>'
