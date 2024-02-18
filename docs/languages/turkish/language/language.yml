@@ -19,8 +19,7 @@ Language:
   WalletWithdrawAmount: '&e- &6%amountformatted% &e%valuename%.'
   PlayerNotFound: '&eoyuncu &6%p% &ebulunamadı veya çevrimiçi değil.'
   WalletWithdrawConverted: '&6%amountformatted% &e%valuename% çevrildi.'
-  WalletWithdrawConvertErrSpaceInv: '&cParanızı dönüştürmeye çalışırken hata oluştu
-    envanter dolu.'
+  WalletWithdrawConvertErrSpaceInv: '&cParanızı dönüştürmeye çalışırken hata oluştu, envanteriniz dolu veya tutar büyük.'
   WalletWithdrawRemaningAmount: '&e%valuename% &6%amountformatted% &ekaldı.'
   WalletWithdrawNoEnoughAmount: '&eyeterli %valuename% yok ve &6%amountformatted%
     &e%valuename% var.'
@@ -31,5 +30,5 @@ Language:
   CannotPaySelf: '&ekendine atamazsın.'
   UsageFormat: '&eKullanım: %u%'
 Usages:
-  EconConvertDeposit: '&e/wallet <generate/withdraw/remove> <miktar> <oyuncu>'
+  EconConvertDeposit: '&e/wallet <generate/withdraw/remove/set> <miktar> <oyuncu>'
   Pay: '&e/pay <miktar> <oyuncu>'
