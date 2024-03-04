@@ -49,7 +49,7 @@ CustomModules:
 
 Economy:
   FirstJoinCash: 0.0 # Set 0.0 to disable this
-  Pattern: "#,##0.##" # Currency Pattern
+  Pattern: "#,##0.0" # Currency Pattern
   Events:
     OnKillMonsters:
       StrikeEffect: false # if this is enabled the OnKillMonsters sound is disabled
