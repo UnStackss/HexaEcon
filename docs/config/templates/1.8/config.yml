@@ -4,9 +4,9 @@
 #   / __  /  __/>  </ /_/ / /___/ /__/ /_/ / / / /
 #  /_/ /_/\___/_/|_|\__,_/_____/\___/\____/_/ /_/
 #
-# Best Economy System plugin, made with ♥ by OwOFuFu
-# OwOFuFu GitHub: https://github.com/OwOFuFu
-# OwOFuFu Spigot: https://www.spigotmc.org/members/owofufu.1382702/
+# Best Economy System plugin, made with ♥ by UnStacks - Feary Development
+# UnStacks GitHub: https://github.com/UnStacks
+# Downloadable from UnStacks WebSite: https://owofufu.dev
 
 # Gradients And Patterns
 # You can use for HEX this format #b50e22
@@ -63,20 +63,20 @@ Economy:
   Physical:
     NBT: # you can use the nbt value to apply custom textures for the plugin
       Value: 30015 # default texture here (https://www.dropbox.com/s/b9gmdetcysz66zn/HexaEcon.zip?dl=1)
-    Item: DOUBLE_PLANT # (Legacy 1.8 DOUBLE_PLANT)this is the physical item (if the item is a sunflower the BlockPlaceEvent for this item is disabled)
+    Item: SUNFLOWER # (Legacy 1.8 DOUBLE_PLANT)this is the physical item (if the item is a sunflower the BlockPlaceEvent for this item is disabled)
     DisplayName: "&e&lCOIN" # physical item display name (HEX SUPPORT)
     Lore:
       - "&f&l| &7Economy value"
       - "&f&l| &7at /warp shop"
 
 # Sounds
-Sounds: # https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html
+Sounds: # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
   OnPlayerInteractWithEcon:
-    Sound: "LEVEL_UP" # if the sound is NONE no play sounds
+    Sound: "ENTITY_PLAYER_LEVELUP" # if the sound is NONE no play sounds
     Volume: 100
     Pitch: 1
   OnPlayerSneakPickupEcon:
-    Sound: "CHICKEN_EGG_POP"
+    Sound: "ENTITY_CHICKEN_EGG"
     Volume: 100
     Pitch: 1
   OnKillMonsters: # on monster kill
@@ -100,17 +100,17 @@ Sounds: # https://helpch.at/docs/1.8/index.html?org/bukkit/Sound.html
     Volume: 100
     Pitch: 1
   NoPermission:
-    Sound: "VILLAGER_NO"
+    Sound: "ENTITY_VILLAGER_NO"
     Volume: 100
     Pitch: 1
 
 # Texture
 TextureManager:
   Enabled: false # Texture not works for 1.8
-  Texture: "https://www.dropbox.com/scl/fi/bbshqd730wtdy0v61bg4w/HexaEcon.zip?rlkey=def5b7zl8xnp66c7vp3nz64le&dl=1"
+  Texture: "https://www.dropbox.com/scl/fi/2y21ds575cznagmnbs4dp/HexaEcon.zip?rlkey=exw768eakod76dyygxa3hgjy3&dl=1"
 
 # Metrics
 bStats: true
 
 # Don't change this value
-config: "legacy"
+config: "latest"
