@@ -1,4 +1,4 @@
-![image](https://github.com/UnStackss/HexaEcon/assets/88714735/98c4d3c5-aefa-40ba-a5dc-42c41fd8375c)<div align="center">
+<div align="center">
     <a href="https://ko-fi.com/E1E7PXNKM">
         <img src="https://ko-fi.com/img/githubbutton_sm.svg">
     </a>
