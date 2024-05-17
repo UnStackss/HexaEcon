@@ -4,8 +4,8 @@
     </a>
 </div>
 <div align="center">
-    <a href="https://i.imgur.com/e18IOp2.png">
-        <img src="https://i.imgur.com/e18IOp2.png" alt="HexaEcon">
+    <a href="https://i.imgur.com/V1WKUIo.png">
+        <img src="https://i.imgur.com/V1WKUIo.png" alt="HexaEcon">
     </a>
     <a href="https://imgur.com/fbtXN9p.png">
         <img src="https://imgur.com/fbtXN9p.png" alt="Description">
