@@ -1,8 +1,0 @@
-Author: OwOFuFu
-Source: https://github.com/OwOFuFu/HexaEconAuctions
-
-Depends: HexaEcon, Vault
-this standalone extension allows you to integrate auctions with HexaEcon support, the plugin works independently only without other auction plugins
-1) Download the extension
-2) Put into server and make sure you have HexaEcon
-3) /ah and use it
