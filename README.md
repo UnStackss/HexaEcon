@@ -5,7 +5,7 @@
 </div>
 <div align="center">
     <a href="">
-        <img src="https://i.imgur.com/s9lkg4e.png" alt="HexaEcon">
+        <img src="https://i.imgur.com/fHXYWB0.png" alt="HexaEcon">
     </a>
     <a href="https://imgur.com/fbtXN9p.png">
         <img src="https://imgur.com/fbtXN9p.png" alt="Description">
