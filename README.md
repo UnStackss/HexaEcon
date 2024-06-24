@@ -4,8 +4,8 @@
     </a>
 </div>
 <div align="center">
-    <a href="https://i.imgur.com/V1WKUIo.png">
-        <img src="https://i.imgur.com/V1WKUIo.png" alt="HexaEcon">
+    <a href="">
+        <img src="https://i.imgur.com/s9lkg4e.png" alt="HexaEcon">
     </a>
     <a href="https://imgur.com/fbtXN9p.png">
         <img src="https://imgur.com/fbtXN9p.png" alt="Description">
@@ -23,7 +23,7 @@
     </a>
 </div>
 <div align="center">
-    <a href="https://i.imgur.com/Bq2SKqd.png">
-      <img src="https://i.imgur.com/Bq2SKqd.png" alt="Discord">
+    <a href="https://i.imgur.com/smmDfHD.gif">
+      <img src="https://i.imgur.com/smmDfHD.gif" alt="FoxyFirewall">
   </a>
 </div>
